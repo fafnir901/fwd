@@ -1,0 +1,73 @@
+﻿@using FWD.DAL.Helpers
+@using FWD.UI.Web.Models.Helper
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title - Статьевод</title>
+	<base href="@(Request.ApplicationPath == "/" ? "/" : Request.ApplicationPath + "/")">
+	<link rel="shortcut icon" href="../../Content/Images/favicon.png" type="image/png">
+
+	<link href="~/Content/Style/main.css" rel="stylesheet" media="screen" />
+	<link href="~/Content/Style/popUpWindow.css" rel="stylesheet" />
+	<link href="~/Content/Style/animate.css" rel="stylesheet" />
+	<link href="~/Content/Style/smiles.css" rel="stylesheet" />
+	<link href="~/Content/Style/fileUploader.css" rel="stylesheet" />
+	<link href="~/Content/Style/editor.css" rel="stylesheet" />
+	<link href="~/Content/Style/dropDown.css" rel="stylesheet" />
+	<link href="~/Content/Style/menu.css" rel="stylesheet" media="screen" />
+	<link href="~/Content/Style/search.css" rel="stylesheet" />
+	<link href="~/Content/Style/rate.css" rel="stylesheet" media="screen" />
+	<link href="~/Content/Style/tag.css" rel="stylesheet" />
+
+	<script src="~/Scripts/lib/jquery-1.10.2.js"></script>
+	<script src="~/Scripts/lib/jquery.signalR-2.1.2.min.js"></script>
+	<script src="~/signalr/hubs"></script>
+
+	<script data-main="Scripts/requireConfig" src="@Url.Content("~/Scripts/lib/require.js")"></script>
+
+
+</head>
+<body>
+	<noscript>
+		<div style="width:100%;height: 100%;position: fixed;z-index: 99;background-color: white">
+			<h1>
+				<strong>
+					Приложение не будет работать без включенного JavaScript. Извините.
+				</strong>
+			</h1>
+		</div>
+	</noscript>
+	<div class="common">
+		<div class="navigate_panel">
+			<div class="logo"></div>
+			<div class="left_panel_searcher">
+				<input type="text" class="searcher" />
+				<div class="searcher_mover"></div>
+				<div class="lens white_lens"></div>
+			</div>
+			<div class="buttons_container"></div>
+			<a id="pseudonim"></a>
+		</div>
+
+		<aside class="left_panel_container">
+			<div class="article_sorter_container">
+				<div class="article_sorter_expander">
+					<div class="article_expander_bubbles"></div>
+					<div class="article_expander_bubbles"></div>
+					<div class="article_expander_bubbles"></div>
+					<div class="article_expander_bubbles"></div>
+				</div>
+			</div>
+			<div class="left_panel">
+			</div>
+		</aside>
+		<div class="main_content">
+			@RenderBody()
+		</div>
+
+	</div>
+
+</body>
+</html>

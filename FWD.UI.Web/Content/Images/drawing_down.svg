@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="drawing_hover.svg"
+   inkscape:version="0.48.5 r10040"
+   version="1.1"
+   id="svg2"
+   height="92.31208"
+   width="331.83972">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="188.16833"
+     inkscape:cy="-135.91215"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7795">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7797" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop7799" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3057">
+      <stop
+         id="stop3059"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop3061"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.36607143;" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective2985"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       gradientUnits="userSpaceOnUse"
+       y2="519.79474"
+       x2="299.48459"
+       y1="515.01733"
+       x1="139.26117"
+       id="linearGradient3063"
+       xlink:href="#linearGradient3057"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       gradientUnits="userSpaceOnUse"
+       y2="519.79474"
+       x2="299.48459"
+       y1="515.01733"
+       x1="139.26117"
+       id="linearGradient3063-511"
+       xlink:href="#linearGradient3057-711"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3057-711">
+      <stop
+         id="stop3476"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop3478"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.36607143;" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       gradientUnits="userSpaceOnUse"
+       y2="519.79474"
+       x2="299.48459"
+       y1="515.01733"
+       x1="139.26117"
+       id="linearGradient3063-541"
+       xlink:href="#linearGradient3057-14"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3057-14">
+      <stop
+         id="stop3482"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop3484"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.36607143;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057-711"
+       id="linearGradient4657"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-236.27779,-1137.4551)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       color-interpolation-filters="sRGB"
+       id="filter5009"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="result2"
+         id="feGaussianBlur5011" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -2 "
+         result="result1"
+         id="feColorMatrix5013" />
+      <feComposite
+         operator="arithmetic"
+         in="SourceGraphic"
+         k2="-1"
+         k3="1"
+         in2="result1"
+         id="feComposite5015"
+         result="fbSourceGraphic"
+         k1="0"
+         k4="0" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5219" />
+      <feOffset
+         id="feOffset5221"
+         dy="3"
+         dx="3"
+         in="fbSourceGraphic" />
+      <feGaussianBlur
+         id="feGaussianBlur5223"
+         result="result8"
+         stdDeviation="3" />
+      <feFlood
+         id="feFlood5225"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         in="result8"
+         result="result10" />
+      <feComposite
+         id="feComposite5227"
+         in2="fbSourceGraphic"
+         operator="in"
+         in="result10"
+         result="result9" />
+      <feBlend
+         id="feBlend5229"
+         in2="result9"
+         mode="normal"
+         in="result8"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5555" />
+      <feGaussianBlur
+         id="feGaussianBlur5557"
+         stdDeviation="2.3"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feMorphology
+         id="feMorphology5559"
+         in="fbSourceGraphicAlpha"
+         radius="6.6"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur5561"
+         stdDeviation="8.9"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5563"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91" />
+      <feComposite
+         id="feComposite5565"
+         in2="result91"
+         in="result0"
+         operator="out"
+         result="result2" />
+      <feGaussianBlur
+         id="feGaussianBlur5567"
+         stdDeviation="1.7"
+         result="result4" />
+      <feDiffuseLighting
+         id="feDiffuseLighting5569"
+         surfaceScale="10"
+         result="result92">
+        <feDistantLight
+           id="feDistantLight5571"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feBlend
+         id="feBlend5573"
+         in2="fbSourceGraphic"
+         mode="multiply"
+         result="result93" />
+      <feComposite
+         id="feComposite5575"
+         in2="fbSourceGraphicAlpha"
+         operator="in"
+         result="result3" />
+      <feSpecularLighting
+         id="feSpecularLighting5577"
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         result="result94">
+        <feDistantLight
+           id="feDistantLight5579"
+           azimuth="225"
+           elevation="45" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite5581"
+         in2="result3"
+         operator="atop" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5231"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5233"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5235"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5237"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5239"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5241"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5243"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5245"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5247"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5249"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5251"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5253"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5255"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5257"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5259"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5261"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5263"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5265"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5267"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5269"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5271"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5273"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5275"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5277"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5279"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5281"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5283"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5285"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5287"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5289"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5291"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5293"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5295"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5297"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5299"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5301"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5303"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5305"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5307"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5309"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5311"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5313"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5315"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5317"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5319"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5321"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5323"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5325"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5327"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5329"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5331"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5333"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5335"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5339"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5341"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5343"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5345"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5347"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5349"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5351"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5353"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5355"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5357"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5359"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5361"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5363"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5365"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5367"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5369"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5371"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5373"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5375"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5377"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5379"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5381"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5383"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3057"
+       id="linearGradient5385"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9817436,0,0,2.9817436,-227.98935,-1057.4322)"
+       x1="139.26117"
+       y1="515.01733"
+       x2="299.48459"
+       y2="519.79474" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7795"
+       id="linearGradient7801"
+       x1="131.64061"
+       y1="403.4358"
+       x2="725.12237"
+       y2="403.4358"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(-3.7394584,-1.7601459)">
+    <text
+       transform="matrix(0.50839183,0,0,0.73869683,-48.12633,-250.10056)"
+       sodipodi:linespacing="125%"
+       id="text3053"
+       y="454.17203"
+       x="138.56999"
+       style="font-size:143.12368774000001000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.32275131000000001;stroke:url(#linearGradient7801);filter:url(#filter5009);font-family:Snap ITC;-inkscape-font-specification:Snap ITC;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#000000;fill-opacity:0.32275131000000001;stroke:url(#linearGradient7801);stroke-opacity:1"
+         y="454.17203"
+         x="138.56999"
+         id="tspan3055"
+         sodipodi:role="line">Article</tspan></text>
+    <g
+       id="g3065">
+      <g
+         id="text3067"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5231);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3072"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5233);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3077"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5235);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3082"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5237);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3087"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5239);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3092"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5241);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3097"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5243);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3102"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5245);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3107"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5247);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3112"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5249);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3117"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5251);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+    </g>
+    <g
+       id="g3122">
+      <g
+         id="text3124"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5253);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3129"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5255);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3134"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5257);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3139"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5259);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3144"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5261);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3149"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5263);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3154"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5265);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3159"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5267);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3164"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5269);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3169"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5271);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3174"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.09090899;fill:url(#linearGradient5273);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+    </g>
+    <g
+       id="g3179">
+      <g
+         id="text3181"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5275);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3186"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5277);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3191"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5279);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3196"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5281);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3201"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5283);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3206"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5285);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3211"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5287);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3216"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5289);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3221"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5291);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3226"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5293);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3231"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5295);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3236"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08333297;fill:url(#linearGradient5297);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+    </g>
+    <g
+       id="g3241">
+      <g
+         id="text3243"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5299);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3248"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5301);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3253"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5303);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3258"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5305);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3263"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5307);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3268"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5309);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3273"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5311);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3278"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5313);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3283"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5315);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3288"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5317);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3293"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5319);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3298"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5321);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3303"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5323);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3308"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.07142902;fill:url(#linearGradient5325);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+    </g>
+    <g
+       id="g3313">
+      <g
+         id="text3315"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5327);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3320"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5329);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3325"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5331);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3330"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5333);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3335"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5335);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3340"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5337);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3345"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5339);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3350"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5341);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3355"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5343);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3360"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5345);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3365"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5347);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3370"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5349);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3375"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5351);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3380"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5353);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3385"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5355);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+    </g>
+    <g
+       id="g3390">
+      <g
+         id="text3392"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5357);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3397"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5359);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3402"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5361);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3407"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5363);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3412"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5365);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3417"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5367);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3422"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5369);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3427"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5371);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3432"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5373);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3437"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5375);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3442"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5377);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3447"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5379);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3452"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5381);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3457"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5383);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+      <g
+         id="text3462"
+         style="font-size:143.12368774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.06666703;fill:url(#linearGradient5385);fill-opacity:1;stroke:none;font-family:Snap ITC;-inkscape-font-specification:Snap ITC"
+         transform="scale(0.86178517,1.160382)" />
+    </g>
+  </g>
+</svg>

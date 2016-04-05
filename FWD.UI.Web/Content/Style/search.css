@@ -1,0 +1,176 @@
+﻿.search_input_container {
+	/* flex: 1; */
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+}
+
+.search_container {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	overflow: auto;
+}
+
+.search_container_header, .search_tag_container_header {
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	background-color: rgba(152, 147, 147, 1);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.search_searcher, .search_searcher_tag {
+	flex: 1;
+	height: 26px;
+	margin-top: 9px;
+	border-radius: 10px;
+	padding-left: 20px;
+	box-shadow: 0px 0px 5px black,0px 0px 5px black;
+	font-size: 19px;
+	border-collapse: collapse;
+	outline: none;
+	border-color: transparent;
+}
+
+#make_search, #make_search_by_tag {
+	/* flex: 1; */
+	/* display: flex; */
+	flex-direction: row;
+	/* margin-left: 10px; */
+	width: 100px;
+}
+
+.search_search-container {
+	width: 95%;
+	padding: 10px;
+	/* display: flex; */
+	/* flex-direction: column; */
+	height: calc(100% - 120px);
+	overflow: auto;
+}
+
+.search_data_container, .search_no_data {
+	height: 150px;
+	width: 100%;
+	background-color: rgba(240, 248, 255, 0.45);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+	/* padding: 10px; */
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* flex: 9; */
+}
+
+.search_no_data {
+	font-size: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 3em;
+	font-weight: bold;
+}
+
+.search_data_container_header {
+	display: flex;
+	flex-direction: row;
+	height: 48px;
+	padding: 10px 0px 10px 0px;
+}
+
+	.search_data_container_header > button {
+		flex: 1;
+		height: 100%;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+		.search_data_container_header > button:hover {
+			box-shadow: 0px 0px 5px black,0px 0px 5px black,0px 0px 5px black;
+		}
+
+/*.search_data_container_header_author:before {
+	content: "Автор:  ";
+}
+
+.search_data_container_header_articleName:before {
+	content: "Название статьи:  ";
+}*/
+.search_data_container_item_text {
+	background-color: rgba(137, 137, 137, 0.1);
+	height: 100%;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.search_data_container_header_author, .search_data_container_header_articleName {
+	display: flex;
+	flex-direction: row;
+	flex: 4;
+	border-radius: 10px;
+	background-color: rgb(199, 209, 218);
+	margin-left: 50px;
+	font-size: 22px;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	vertical-align: middle;
+	line-height: 2em;
+	padding-left: 22px;
+	cursor: pointer;
+}
+
+.search_container_header_total_count, .search_tag_container_header_total_count {
+	flex-direction: row;
+	/* flex: 1; */
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 2.3em;
+	border-radius: 10px;
+	color: white;
+	/* background-color: aliceblue; */
+	/* padding: 4px; */
+}
+
+.tag_toggler, .tag_toggler_tag {
+	position: absolute;
+	right: 52px;
+	top: 40px;
+}
+
+	.tag_toggler > span, .tag_toggler_tag > span {
+		vertical-align: super;
+	}
+
+.search_container_invisible {
+	display: none;
+}
+
+.search_input_tag_container {
+	display: flex;
+	width: 42%;
+}
+
+.search_searcher_tag {
+	flex: 2;
+	overflow: hidden;
+	height: 25px;
+	padding: 10px;
+}
+
+.tag_chooser {
+	flex: 1;
+	display: flex;
+}
+
+.tag_chooser > div:first-of-type {
+	overflow: hidden !important;
+}

@@ -1,0 +1,43 @@
+﻿@using System.Collections.Concurrent
+@model FWD.BusinessObjects.Domain.User
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Логин</title>
+	<link href="~/Content/Style/login.css" rel="stylesheet" />
+</head>
+<body>
+	<div>
+		<span class="login_logo">Система хранения статей приветствует тебя [User Name]</span>
+	</div>
+	@using (Html.BeginForm("Login", "User"))
+	{
+		<div class="login_box">
+			@Html.ValidationSummary(true, "")
+			@Html.ValidationMessageFor(c => c.Credential.Login, "", htmlAttributes: new { @class = "login_error" })
+			<div>
+				<span>Логин:</span>
+				@Html.TextBoxFor(c => c.Credential.Login, new { @class = "login_input" })
+			</div>
+			<div>
+				<span>Пароль:</span>
+				@Html.PasswordFor(c => c.Credential.Password, new { @class = "login_input" })
+			</div>
+			<div>
+				<input type="submit" class="login_button" value="Войти">
+			</div>
+		</div>
+		<div class="reg_box">
+			@Html.ActionLink("Регистрация","Registration")
+		</div>
+
+	}
+</body>
+</html>

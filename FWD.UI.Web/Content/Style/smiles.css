@@ -1,0 +1,150 @@
+﻿body {
+}
+
+.hide_smile_container {
+	background-image: url('../Images/cancel.png');
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	background-size: contain;
+	background-color: transparent;
+	/*left: 95.7%;*/
+	/*top: 7%;*/
+	border-radius: 50%;
+	cursor: pointer;
+	margin-top: -26px;
+	margin-left: 135px;
+}
+
+.smile_container {
+	/*display: inline-block;
+	cursor: pointer;
+	margin-left: 20px;
+	height: 90px;
+	float: right;
+	width: 35%;
+	margin-top: 3px;
+	margin-right: 3px;
+	border: 2px solid rgba(134, 134, 171, 0.25);
+	border-radius: 10px;*/
+	cursor: pointer;
+	margin-left: 20px;
+	height: 90px;
+	float: right;
+	margin-top: 3px;
+	margin-right: 3px;
+	border: 2px solid rgba(134, 134, 171, 0.25);
+	border-radius: 10px;
+	flex-direction: row;
+}
+
+	.smile_container > button {
+		flex-direction: row;
+		display: flex;
+		height: 26px;
+	}
+
+	.smile_container > div {
+		margin-top: 25px;
+		margin-left: 5px;
+		position: relative;
+		text-decoration: none;
+	}
+
+		.smile_container > div:hover {
+			box-shadow: 0px 0px 10px white;
+		}
+
+		.smile_container > div:after {
+			content: attr(data-tooltip);
+			position: absolute;
+			bottom: 130%;
+			/*left: 20%;*/
+			margin-left: -31px;
+			background: #ffcb66;
+			padding: 5px 15px;
+			color: black;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			white-space: nowrap;
+			opacity: 0;
+			/*content: attr(data-tooltip);
+			position: fixed;
+			margin-bottom: -92px;
+			background: #ffcb66;
+			padding: 5px 15px;
+			color: black;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			white-space: nowrap;
+			opacity: 0;
+			margin-left: -31px;*/
+		}
+
+		.smile_container > div:before {
+			content: "";
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 20px solid #ffcb66;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			opacity: 0;
+			/*left: 30%;*/
+			margin-left: -11px;
+			bottom: 90%;
+			/*content: "";
+			position: fixed;
+			width: 0;
+			height: 0;
+			border-top: 20px solid #ffcb66;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			opacity: 0;
+			margin-left: -11px;
+			margin-bottom: 61px;*/
+		}
+
+		.smile_container > div:hover:after {
+			bottom: 100%;
+		}
+
+		.smile_container > div:hover:before {
+			bottom: 70%;
+		}
+
+		.smile_container > div:hover:after, .smile_container > div:hover:before {
+			opacity: 1;
+		}
+
+
+.smile {
+	background-image: url('../Images/smiles.png');
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	border-radius: 14px;
+	display: inline-block;
+}
+
+.simple {
+	background-position: -27px -23px;
+}
+
+.like {
+	background-position: -113px -46px;
+}
+
+.dislike {
+	background-position: -133px -44px;
+}
+
+.heart {
+	background-position: -91px -44px;
+}
+
+.angry {
+	background-position: -70px -45px;
+}

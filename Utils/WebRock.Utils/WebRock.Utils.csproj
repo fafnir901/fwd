@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F07914CB-A733-4AF5-B05E-D170CF0BAE10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebRock.Utils</RootNamespace>
+    <AssemblyName>WebRock.Utils</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DelegateDecompiler">
+      <HintPath>..\..\packages\DelegateDecompiler.0.18.1\lib\net40-Client\DelegateDecompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Reflection">
+      <HintPath>..\..\packages\Mono.Reflection.1.0.0.0\lib\Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Annotations\AspMvcActionAttribute.cs" />
+    <Compile Include="Annotations\AspMvcAriaAttribute.cs" />
+    <Compile Include="Annotations\AspMvcControllerAttribute.cs" />
+    <Compile Include="Annotations\AspMvcMasterAttribute.cs" />
+    <Compile Include="Annotations\AspMvcModelTypeAttribute.cs" />
+    <Compile Include="Annotations\AspMvcPartialViewAttribute.cs" />
+    <Compile Include="Annotations\AspMvcSupressErrorAttribute.cs" />
+    <Compile Include="Annotations\AspMvcTemplateAttribute.cs" />
+    <Compile Include="Annotations\AspMvcViewAttribute.cs" />
+    <Compile Include="Annotations\AssertionConditionAttribute.cs" />
+    <Compile Include="Annotations\AssertionConditionType.cs" />
+    <Compile Include="Annotations\AssertionMethodAttribute.cs" />
+    <Compile Include="Annotations\Attributes\InlineableAttribute.cs" />
+    <Compile Include="Annotations\Attributes\InlineEnvironmentAttribute.cs" />
+    <Compile Include="Annotations\BaseTypeRequiredAttribute.cs" />
+    <Compile Include="Annotations\CanBeNullAttribute.cs" />
+    <Compile Include="Annotations\CannotApplyEqualityOperatorAttribute.cs" />
+    <Compile Include="Annotations\ImplicitUseKindFlags.cs" />
+    <Compile Include="Annotations\ImplicitUseTargetFlags.cs" />
+    <Compile Include="Annotations\InstantHandleAttribute.cs" />
+    <Compile Include="Annotations\InvokerParameterNameAttribute.cs" />
+    <Compile Include="Annotations\LocalizationRequiredAttribute.cs" />
+    <Compile Include="Annotations\MeansImplicitUseAttribute.cs" />
+    <Compile Include="Annotations\NotNullAttribute.cs" />
+    <Compile Include="Annotations\PathReferenceAttribute.cs" />
+    <Compile Include="Annotations\PublicAPIAttribute.cs" />
+    <Compile Include="Annotations\PureAttribute.cs" />
+    <Compile Include="Annotations\RazorSectionAttribute.cs" />
+    <Compile Include="Annotations\StringFormatMethodAttribute.cs" />
+    <Compile Include="Annotations\TerminatesProgrammAttribute.cs" />
+    <Compile Include="Annotations\UsedImplicetlyAttribute.cs" />
+    <Compile Include="Exceptions\TypeOfMappingFieldIsNotEqualException.cs" />
+    <Compile Include="ExpressionTrees\Extend\Evaluator.cs" />
+    <Compile Include="ExpressionTrees\Extend\ExpressionCollection.cs" />
+    <Compile Include="ExpressionTrees\Extend\ExpressionExtensions.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\BooleanEvaluator.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\CtorTypeChanger.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\InlineApplyVisitor.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\InlineVisitor.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\LambdaSubstituter.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\ProtectFromNullReferenceVisitor.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\Quote.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\Extend\Replacer.cs" />
+    <Compile Include="Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Extensions\GetCustomAttributeExtension.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="UtilsEntities\Extend\Failure.cs" />
+    <Compile Include="FileUtils\ImageUtils.cs" />
+    <Compile Include="FileUtils\IOUtils.cs" />
+    <Compile Include="FileUtils\XmlUtils.cs" />
+    <Compile Include="UtilsEntities\Extend\Guard.cs" />
+    <Compile Include="Interfaces\IExpressionConverter.cs" />
+    <Compile Include="ExpressionTrees\Converter\SimpleConverter.cs" />
+    <Compile Include="ExpressionTrees\Internals\ExpressionAssembler.cs" />
+    <Compile Include="ExpressionTrees\ExpressionCollector.cs" />
+    <Compile Include="ExpressionTrees\Internals\ExpressionDisassembler.cs" />
+    <Compile Include="ExpressionTrees\ExpressionTreeHelper.cs" />
+    <Compile Include="Exceptions\PropertyNotFoundInMappingException.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\WebRockExpressionCollectorVisitor.cs" />
+    <Compile Include="ExpressionTrees\Internals\InternalExpressionHelper.cs" />
+    <Compile Include="ExpressionTrees\Internals\MemberExpressionHelper.cs" />
+    <Compile Include="ExpressionTrees\Models\ExpressionWithMethodModel.cs" />
+    <Compile Include="ExpressionTrees\Models\ExpressionAdderModel.cs" />
+    <Compile Include="ExpressionTrees\ExpressionVisitors\WebRockExpressionConverterVisitor.cs" />
+    <Compile Include="ExpressionTrees\Models\LastLevelNodeExpressionTreeModel.cs" />
+    <Compile Include="ExpressionTrees\Internals\VisitHelper.cs" />
+    <Compile Include="Interfaces\IMemberHelper.cs" />
+    <Compile Include="Interfaces\IMapper.cs" />
+    <Compile Include="Mappers\BaseMapper.cs" />
+    <Compile Include="Mappers\SimpleMapper.cs" />
+    <Compile Include="Mappers\XmlMapper.cs" />
+    <Compile Include="Monad\Maybe.cs" />
+    <Compile Include="Monad\MaybeExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilsEntities\Extend\Res.cs" />
+    <Compile Include="UtilsEntities\Extend\Success.cs" />
+    <Compile Include="UtilsEntities\Extend\Try.cs" />
+    <Compile Include="UtilsEntities\QueryParams.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

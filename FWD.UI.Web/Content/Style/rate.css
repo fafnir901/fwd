@@ -1,0 +1,39 @@
+﻿.rating {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: left;
+	font: 37px Georgia, serif;
+	text-shadow: 0px 0px 10px black;
+}
+
+	.rating > span {
+		display: inline-block;
+		position: relative;
+		width: 1.1em;
+	}
+
+.rating_color {
+	color: transparent;
+}
+
+	.rating_color:before {
+		content: "\2605";
+		color: gold;
+		position: absolute;
+	}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+	content: "\2605";
+	color: gold;
+	position: absolute;
+}
+
+.rating_star {
+	transition: all 1s ease;
+	cursor: pointer;
+}
+
+.rating > span:hover, .rating > span:hover ~ span {
+	color: gold;
+}

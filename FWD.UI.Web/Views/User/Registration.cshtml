@@ -1,0 +1,103 @@
+﻿@model FWD.UI.Web.Models.RegistrationModel
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Регистрация</title>
+	<script src="~/Scripts/lib/jquery-1.10.2.min.js"></script>
+	<script src="~/Scripts/lib/underscorejs.js"></script>
+	<link href="~/Content/Style/login.css" rel="stylesheet" />
+	<link href="~/Content/Style/main.css" rel="stylesheet" />
+	<link href="~/Content/Style/popUpWindow.css" rel="stylesheet" />
+	<link href="~/Content/Style/fileUploader.css" rel="stylesheet" />
+	<script src="~/Scripts/Common/Helpers/errorHelper/errorHelper.model.js"></script>
+	<script src="~/Scripts/Common/Helpers/appPath.js"></script>
+	<script src="~/Scripts/Common/components/ui/fileUpload.js"></script>
+</head>
+<body>
+	<div>
+		<span class="login_logo">Регистраиця</span>
+	</div>
+	<div>
+		@using (Html.BeginForm("Registration", "User"))
+		{
+			<div class="login_box" style="margin: 0 auto">
+				@Html.ValidationSummary(true, "")
+				<div class="avatar_box">
+					<span>Аватар</span>
+					<div class="avatar_border" id="creation_image_container"></div>
+				</div>
+				<div>
+					<span>Имя:</span>
+					@Html.TextBoxFor(c => c.FirstName, new { @class = "login_input" })
+					@Html.ValidationMessageFor(c => c.FirstName, "", htmlAttributes: new { @class = "login_error" })
+				</div>
+				<div>
+					<span>Фамилия:</span>
+					@Html.TextBoxFor(c => c.LastName, new { @class = "login_input" })
+					@Html.ValidationMessageFor(c => c.LastName, "", htmlAttributes: new { @class = "login_error" })
+				</div>
+				<div>
+					<span>Почта:</span>
+					@Html.TextBoxFor(c => c.Email, new { @class = "login_input" })
+					@Html.ValidationMessageFor(c => c.Email, "", htmlAttributes: new { @class = "login_error" })
+				</div>
+				<div>
+					<span>Логин:</span>
+					@Html.TextBoxFor(c => c.Login, new { @class = "login_input" })
+					@Html.ValidationMessageFor(c => c.Login, "", htmlAttributes: new { @class = "login_error" })
+				</div>
+				<div>
+					<span>Пароль:</span>
+					@Html.PasswordFor(c => c.Password, new { @class = "login_input" })
+					@Html.ValidationMessageFor(c => c.Password, "", htmlAttributes: new { @class = "login_error" })
+				</div>
+				<div>
+					<span>Повторите пароль:</span>
+					@Html.PasswordFor(c => c.ConfirmPassword, new { @class = "login_input" })
+					@Html.ValidationMessageFor(c => c.ConfirmPassword, "", htmlAttributes: new { @class = "login_error" })
+				</div>
+				<div>
+					<input type="submit" class="login_button" value="Зарегестрироваться">
+				</div>
+			</div>
+		}
+	</div>
+	<script>
+		var appPath = new AppPath();
+		var errorHelper = new MessageHelperModel(jQuery, appPath, _);
+
+		var configurator = {
+			uploadParams: {
+				url: appPath.getAppPath() + '/uploadImage',
+				onSuccess: function () {
+					var def = $.Deferred();
+					def.resolve(errorHelper.showInfo('Изображение успешно загружено'));
+					return def.promise();
+				},
+				onError: function (text) {
+					errorHelper.showError(text);
+				},
+				onProgress: function (loaded, total, container) {
+					var progressIndicator = $('<div></div>');
+				}
+			},
+			$: jQuery,
+			appPath: appPath,
+			_: _,
+			errorHelper: errorHelper
+		};
+
+		$(document).ready(function() {
+			var fileUploader = new FileUploader(configurator);
+			$('.avatar_box').append(fileUploader.getUploader($('.avatar_border')));
+		});
+	</script>
+</body>
+</html>

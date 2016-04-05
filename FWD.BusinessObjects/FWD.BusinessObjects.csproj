@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9B0EA65-70FE-4C47-B343-67B1294211ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FWD.BusinessObjects</RootNamespace>
+    <AssemblyName>FWD.BusinessObjects</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Absrtact\IArticle.cs" />
+    <Compile Include="Absrtact\IEntity.cs" />
+    <Compile Include="Absrtact\IPlan.cs" />
+    <Compile Include="Absrtact\ITag.cs" />
+    <Compile Include="Domain\Article.cs" />
+    <Compile Include="Domain\ArticleGroup.cs" />
+    <Compile Include="Domain\Comment.cs" />
+    <Compile Include="Domain\Credential.cs" />
+    <Compile Include="Domain\CurrentPlan.cs" />
+    <Compile Include="Domain\Dto\ArticleDto.cs" />
+    <Compile Include="Domain\Dto\ArticleSheduleData.cs" />
+    <Compile Include="Domain\Dto\TagsCommonInfo.cs" />
+    <Compile Include="Domain\Image.cs" />
+    <Compile Include="Domain\Plan.cs" />
+    <Compile Include="Domain\Tag.cs" />
+    <Compile Include="Domain\Transaction.cs" />
+    <Compile Include="Domain\User.cs" />
+    <Compile Include="Domain\UserRoleEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Xml\XmlArtcileGroup.cs" />
+    <Compile Include="Xml\XmlArticle.cs" />
+    <Compile Include="Xml\XmlBase.cs" />
+    <Compile Include="Xml\XmlPlan.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\WebRock.Utils\WebRock.Utils.csproj">
+      <Project>{f07914cb-a733-4af5-b05e-d170cf0bae10}</Project>
+      <Name>WebRock.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

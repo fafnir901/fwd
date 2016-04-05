@@ -1,0 +1,112 @@
+﻿.show_xml {
+	background-image: url('../Images/menu/xml.png');
+}
+
+.show_db {
+	background-image: url('../Images/menu/db.png');
+}
+
+.save_to_db {
+	background-image: url('../Images/menu/save_db.png');
+}
+
+.save_to_xml {
+	background-image: url('../Images/menu/save_xml.png');
+}
+
+.mail {
+	background-image: url('../Images/menu/mail.png');
+}
+
+.mail_quick {
+	background-image: url('../Images/menu/mail_quick.png');
+}
+
+.plan {
+	background-image: url('../Images/menu/plan.png');
+}
+
+.statistics {
+	background-image: url('../Images/menu/statistics.png');
+}
+
+.new {
+	background-image: url('../Images/menu/create.png');
+}
+
+.search {
+	background-image: url('../Images/menu/search.png');
+}
+
+.menu_delete {
+	background-image: url('../Images/menu/delete.png');
+}
+
+.comments {
+	background-image: url('../Images/menu/comments.png');
+}
+
+.show_group {
+	background-image: url('../Images/menu/show_group.png');
+}
+
+.show_list {
+	background-image: url('../Images/menu/show_list.png');
+}
+
+.weight_info {
+	background-image: url('../Images/menu/info.png');
+}
+
+.export {
+	background-image: url('../Images/menu/export.png');
+}
+
+.export_one {
+	background-image: url('../Images/menu/export_one.png');
+}
+
+.import {
+	background-image: url('../Images/menu/import.png');
+}
+
+.edit {
+	background-image: url('../Images/menu/edit.png');
+}
+
+.tran {
+	background-image: url('../Images/menu/tran.png');
+}
+
+.main_menu {
+	background-image: url('../Images/menu/main_menu.png');
+}
+
+.show_xml, .show_db, .save_to_db, .save_to_xml, .mail, .plan, .statistics, .new, .menu_delete, .comments, .show_group, .show_list, .weight_info, .export, .edit, .import, .tran, .main_menu, .search, .mail_quick,.export_one {
+	background-repeat: no-repeat;
+	background-position: -2px -1.99px;
+	background-color: transparent;
+	border-radius: 30px;
+	cursor: pointer;
+	opacity: 0.46;
+	transition: all 1s ease;
+}
+
+	.show_xml:hover, .show_db:hover, .save_to_db:hover, .save_to_xml:hover, .mail:hover, .plan:hover, .mail_quick:hover,
+	.statistics:hover, .new:hover, .menu_delete:hover, .comments:hover, .show_group:hover, .show_list:hover,
+	.weight_info:hover, .export:hover, .edit:hover, .import:hover, .tran:hover, .main_menu:hover, .search:hover,
+	.export_one:hover {
+		opacity: 1;
+	}
+
+.top_menu_button {
+	display: none;
+}
+
+.display {
+	display: inline-block;
+}
+
+.hidden {
+	display: none !important;
+}

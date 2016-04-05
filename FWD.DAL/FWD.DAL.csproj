@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7545F05E-8066-45F0-9D86-96E484D5F2BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FWD.DAL</RootNamespace>
+    <AssemblyName>FWD.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferencedAssemblies\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferencedAssemblies\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferencedAssemblies\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferencedAssemblies\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferencedAssemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\ArticleDBRepository.cs" />
+    <Compile Include="Domain\CommentDbRepository.cs" />
+    <Compile Include="Domain\GroupDbRepository.cs" />
+    <Compile Include="Domain\PlanDbRepository.cs" />
+    <Compile Include="Domain\TagDbRepository.cs" />
+    <Compile Include="Domain\TransactionDBRepository.cs" />
+    <Compile Include="Entities\Enums\ActionType.cs" />
+    <Compile Include="Entities\Enums\EntityType.cs" />
+    <Compile Include="Helpers\TranEnumExtensions.cs" />
+    <Compile Include="Entities\TransactionLog.cs" />
+    <Compile Include="Domain\UserDbRepository.cs" />
+    <Compile Include="Entities\Article.cs" />
+    <Compile Include="Entities\ArticleGroup.cs" />
+    <Compile Include="Entities\Comment.cs" />
+    <Compile Include="Entities\EmbdedImage.cs" />
+    <Compile Include="Entities\Plan.cs" />
+    <Compile Include="Entities\Tag.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Helpers\CommonHelper.cs" />
+    <Compile Include="Helpers\TransactionHelper.cs" />
+    <Compile Include="JSON\ArticleJsonRepository.cs" />
+    <Compile Include="JSON\BaseJson.cs" />
+    <Compile Include="Model\ArticleContext.cs" />
+    <Compile Include="Model\ArticleContextInitializer.cs" />
+    <Compile Include="Model\ArticleMigrationConfigurator.cs" />
+    <Compile Include="Xml\ArticleXmlRepository.cs" />
+    <Compile Include="Domain\BaseDB.cs" />
+    <Compile Include="Xml\AtricleGroupsXmlRepository.cs" />
+    <Compile Include="Xml\BaseXml.cs" />
+    <Compile Include="Helpers\PredicateHelper.cs" />
+    <Compile Include="Helpers\PredicateSet.cs" />
+    <Compile Include="Mapping\Mapper.cs" />
+    <Compile Include="Xml\PlanXmlRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FWD.BusinessObjects\FWD.BusinessObjects.csproj">
+      <Project>{e9b0ea65-70fe-4c47-b343-67b1294211ed}</Project>
+      <Name>FWD.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FWD.CommonIterfaces\FWD.CommonIterfaces.csproj">
+      <Project>{433d7273-4f41-443e-beda-ab8bb565c911}</Project>
+      <Name>FWD.CommonIterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\WebRock.Utils\WebRock.Utils.csproj">
+      <Project>{f07914cb-a733-4af5-b05e-d170cf0bae10}</Project>
+      <Name>WebRock.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\AutoMapper.3.2.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.2.1\tools\AutoMapper.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

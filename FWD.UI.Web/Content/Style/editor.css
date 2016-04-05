@@ -1,0 +1,106 @@
+﻿.editor_common_container {
+	width: 50%;
+	height: 75%;
+	border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.editor_menu {
+	width: 100%;
+	height: 39px;
+	background-color: rgb(68, 94, 116);
+}
+
+.editor_body {
+	width: calc(100% - 8px);
+	height: calc(100% - 46px);
+	background-color: white;
+	overflow-y: auto;
+	overflow-x: hidden;
+	white-space: pre-line;
+	font-weight: normal;
+	padding: 4px;
+}
+
+.editor_menu_background_container,.editor_menu_replceHtml_container,.editor_menu_showSource_container {
+	display: inline-block;
+}
+
+.editor_menu_fontSize_container, .editor_menu_background_container,.editor_menu_replceHtml_container,.editor_menu_showSource_container {
+	width: 70px;
+	height: 100%;
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	text-align: center;
+	/*padding-top: 10px;*/
+	/*text-shadow: 0px 0px 2px white*/
+	cursor: pointer;
+	font-weight: normal;
+	color: white;
+	float: left;
+}
+.editor_menu_showSource_container {
+	width: 90px;
+	line-height: 2.5em;
+}
+
+	.editor_menu_fontSize_container:hover, .editor_menu_background_container:hover,.editor_menu_replceHtml_container:hover,.editor_menu_showSource_container:hover {
+		background-color: rgb(134, 125, 165);
+		font-weight: bold;
+	}
+
+	.editor_menu_fontSize_container > span {
+		margin-top: 10px;
+		top: 10px;
+		line-height: 2.5em;
+	}
+
+
+.editor_menu_fontSize_dropDown_container, .editor_menu_background_dropDown_container {
+	width: 70px;
+	height: 140px;
+	background-color: white;
+	position: absolute;
+	top: 60px;
+	border-right: 1px solid rgba(0, 0, 0, 0.54);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+	overflow-y: auto;
+	display: none;
+}
+
+.editor_menu_fontSize_dropDown_container {
+	left: 183px;
+}
+
+.editor_menu_background_dropDown_container {
+	left: 111px;
+	border-left: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.editor_menu_background_dropDown_item {
+}
+
+.editor_menu_background_dropDown_item_marker {
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.47);
+	margin-left: 22px;
+	margin-top: 4px;
+}
+
+.editor_menu_fontSize_dropDown_item, .editor_menu_background_dropDown_item {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+	height: 23px;
+	padding-top: 4px;
+	cursor: pointer;
+	font-weight: normal;
+	color: black;
+}
+
+	.editor_menu_fontSize_dropDown_item:hover, .editor_menu_background_dropDown_item:hover {
+		background-color: rgba(28, 28, 89, 0.28);
+		font-weight: bold;
+	}
+
+.indicator {
+	margin-top: 13px;
+	margin-left: 28px;
+}

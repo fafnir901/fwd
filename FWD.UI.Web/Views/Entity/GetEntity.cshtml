@@ -1,0 +1,51 @@
+﻿@using FWD.UI.Web.Models.Entities.Dtos
+@model FWD.UI.Web.Models.Entities.Dtos.IDto
+@{
+	ViewBag.Title = "";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script data-main="Scripts/requireConfig" src="@Url.Content("~/Scripts/lib/require.js")"></script>
+@try
+{
+	if (Model is ArticleDto)
+	{
+		var article = Model as ArticleDto;
+		ViewBag.Title = string.Format("Статья \"{0}\"", article.ArticleName);
+		<script>
+
+			var id = @article.ArticleId;
+			window.showArticle = {
+				articleId:id
+			};
+
+
+		</script>
+	}
+	else if (Model is PlanDto)
+	{
+		@*var plan = Model as PlanDto;
+			<script>
+				configurator.models.articleModel.showArticle(@article.ArticleId,$('.main_content'));
+			</script>*@
+	}
+	else if (Model is ExceptonDto)
+	{
+		var ex = Model as ExceptonDto;
+		ViewBag.Title = string.Format("Ошибка \"{0}\"", ex.Exception.Message);
+		<script>
+
+			window.showError = {
+				ex:'@ex.Exception.Message'
+			};
+		</script>
+	}
+}
+catch (Exception ex)
+{
+	<script>
+		if (window.showError != undefined) {
+			window.showError('@ex.Message');
+		}
+	</script>
+}
+

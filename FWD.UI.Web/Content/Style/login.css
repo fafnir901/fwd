@@ -1,0 +1,132 @@
+﻿body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+}
+
+@font-face {
+	font-family: "BeerRegular";
+	src: url("../fonts/BeerRegular/BeerRegular.eot");
+	src: url("../fonts/BeerRegular/BeerRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/BeerRegular/BeerRegular.woff") format("woff"), url("../fonts/BeerRegular/BeerRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+.login_input {
+	width: 500px;
+	height: 30px;
+	border-radius: 15px;
+	outline: none;
+	padding-left: 10px;
+	font-size: 28px;
+	font-family: "BeerRegular";
+}
+
+.login_box {
+	width: 540px;
+	border-radius: 10px;
+	margin: 10% auto;
+	background-color: rgba(0, 0, 0, 0.29);
+	box-shadow: 0px 0px 10px black;
+}
+
+	.login_box > div {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+		.login_box > div > span {
+			font-size: 28px;
+			font-family: "BeerRegular";
+		}
+
+.login_button {
+	border-radius: 15px;
+	outline: none;
+	font-size: 28px;
+	font-family: "BeerRegular";
+	margin-right: 10px;
+	float: right;
+}
+
+	.login_button:hover {
+		box-shadow: 0px 0px 20px black;
+		cursor: pointer;
+		color: white;
+		text-shadow: 0px 0px 10px black;
+	}
+
+.login_box > div:last-of-type::after {
+	clear: both;
+	height: 50px;
+	content: '';
+	display: inline-block;
+}
+
+.login_error {
+	color: red;
+	text-shadow: 0px 0px 10px black;
+}
+
+.validation-summary-errors > ul > li {
+	color: red;
+	font-family: "BeerRegular";
+	font-size: 28px;
+	text-shadow: 0px 0px 10px black;
+}
+
+.login_logo {
+	font-family: "BeerRegular";
+	font-size: 64px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+.reg_box {
+	clear: both;
+	width: 390px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px black;
+	background-color: rgba(255, 255, 255, 0.39);
+	border-radius: 10px;
+	margin-top: calc(-9% - 7px);
+	height: 50px;
+	color: white;
+	font-family: "BeerRegular";
+	font-size: 41px;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 0px 0px 10px black,0px 0px 10px black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+	a:hover {
+		color: black;
+	}
+
+.avatar_box {
+	width: 330px;
+	height: 370px;
+	margin-left: 560px !important;
+	box-shadow: 0px 0px 10px black;
+	position: absolute;
+	border-radius: 10px;
+	padding: 10px;
+}
+.avatar_border {
+	width: 100% !important;
+	height: 50%;
+	overflow: hidden;
+}
+.avatar_box > span {
+	color: white;
+	font-family: "BeerRegular";
+	text-align: center;
+}

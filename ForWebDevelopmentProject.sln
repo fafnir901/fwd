@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.DAL", "FWD.DAL\FWD.DAL.csproj", "{7545F05E-8066-45F0-9D86-96E484D5F2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.CommonIterfaces", "FWD.CommonIterfaces\FWD.CommonIterfaces.csproj", "{433D7273-4F41-443E-BEDA-AB8BB565C911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.BusinessObjects", "FWD.BusinessObjects\FWD.BusinessObjects.csproj", "{E9B0EA65-70FE-4C47-B343-67B1294211ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.Services", "FWD.Services\FWD.Services.csproj", "{42B3F67D-C90A-4EB2-B0EF-CD080FA02907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.Test", "FWD.Test\FWD.Test.csproj", "{B4F69C16-D3B6-4C2F-AB85-9DC8458F364A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.UI", "FWD.UI\FWD.UI.csproj", "{997C7EDA-4F00-4B45-B985-40B9C81E124E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWD.UI.Web", "FWD.UI.Web\FWD.UI.Web.csproj", "{DAE86907-CAA6-4489-B807-A1DE10D436C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{492ECCB1-71C1-4941-A7A8-4F0A09E25874}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2293131C-B77C-4F18-8631-EC67CD365E26}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{DDB70231-E521-4E44-BB88-0B0F1C6761BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text.Analizer", "Utils\TextAnalyzer\Text.Analizer.csproj", "{5F20968C-E97D-4022-B1AA-30DA9FC31406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text.Analizer.UnitTests", "Utils\TextAnalyzerTests\Text.Analizer.UnitTests.csproj", "{0E88C088-3764-457D-AA35-3715C8040244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRock.UnitTests", "Utils\WebRock.UnitTests\WebRock.UnitTests.csproj", "{6CD7E89D-56D9-483B-A6AC-8788EC528144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRock.Utils", "Utils\WebRock.Utils\WebRock.Utils.csproj", "{F07914CB-A733-4AF5-B05E-D170CF0BAE10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferencedAssemblies", "ReferencedAssemblies", "{ED6100A9-A994-4937-B8EA-A2F83DC63F82}"
+	ProjectSection(SolutionItems) = preProject
+		ReferencedAssemblies\AutoMapper.dll = ReferencedAssemblies\AutoMapper.dll
+		ReferencedAssemblies\AutoMapper.Net4.dll = ReferencedAssemblies\AutoMapper.Net4.dll
+		ReferencedAssemblies\EntityFramework.dll = ReferencedAssemblies\EntityFramework.dll
+		ReferencedAssemblies\EntityFramework.SqlServer.dll = ReferencedAssemblies\EntityFramework.SqlServer.dll
+		ReferencedAssemblies\Microsoft.AspNet.SignalR.Core.dll = ReferencedAssemblies\Microsoft.AspNet.SignalR.Core.dll
+		ReferencedAssemblies\Microsoft.AspNet.SignalR.SystemWeb.dll = ReferencedAssemblies\Microsoft.AspNet.SignalR.SystemWeb.dll
+		ReferencedAssemblies\Microsoft.Owin.dll = ReferencedAssemblies\Microsoft.Owin.dll
+		ReferencedAssemblies\Microsoft.Owin.Host.SystemWeb.dll = ReferencedAssemblies\Microsoft.Owin.Host.SystemWeb.dll
+		ReferencedAssemblies\Microsoft.Owin.Security.dll = ReferencedAssemblies\Microsoft.Owin.Security.dll
+		ReferencedAssemblies\Newtonsoft.Json.dll = ReferencedAssemblies\Newtonsoft.Json.dll
+		ReferencedAssemblies\Ninject.dll = ReferencedAssemblies\Ninject.dll
+		ReferencedAssemblies\nunit.framework.dll = ReferencedAssemblies\nunit.framework.dll
+		ReferencedAssemblies\Owin.dll = ReferencedAssemblies\Owin.dll
+		ReferencedAssemblies\System.Reactive.Core.dll = ReferencedAssemblies\System.Reactive.Core.dll
+		ReferencedAssemblies\System.Reactive.Core.xml = ReferencedAssemblies\System.Reactive.Core.xml
+		ReferencedAssemblies\System.Reactive.Interfaces.dll = ReferencedAssemblies\System.Reactive.Interfaces.dll
+		ReferencedAssemblies\System.Reactive.Interfaces.xml = ReferencedAssemblies\System.Reactive.Interfaces.xml
+		ReferencedAssemblies\System.Reactive.Linq.dll = ReferencedAssemblies\System.Reactive.Linq.dll
+		ReferencedAssemblies\System.Reactive.Linq.xml = ReferencedAssemblies\System.Reactive.Linq.xml
+		ReferencedAssemblies\System.Reactive.PlatformServices.dll = ReferencedAssemblies\System.Reactive.PlatformServices.dll
+		ReferencedAssemblies\System.Reactive.PlatformServices.xml = ReferencedAssemblies\System.Reactive.PlatformServices.xml
+		ReferencedAssemblies\TextAnalyzer.dll = ReferencedAssemblies\TextAnalyzer.dll
+		ReferencedAssemblies\WebRock.Utils.dll = ReferencedAssemblies\WebRock.Utils.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7545F05E-8066-45F0-9D86-96E484D5F2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7545F05E-8066-45F0-9D86-96E484D5F2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7545F05E-8066-45F0-9D86-96E484D5F2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7545F05E-8066-45F0-9D86-96E484D5F2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433D7273-4F41-443E-BEDA-AB8BB565C911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433D7273-4F41-443E-BEDA-AB8BB565C911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433D7273-4F41-443E-BEDA-AB8BB565C911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433D7273-4F41-443E-BEDA-AB8BB565C911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B0EA65-70FE-4C47-B343-67B1294211ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B0EA65-70FE-4C47-B343-67B1294211ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B0EA65-70FE-4C47-B343-67B1294211ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B0EA65-70FE-4C47-B343-67B1294211ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B3F67D-C90A-4EB2-B0EF-CD080FA02907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B3F67D-C90A-4EB2-B0EF-CD080FA02907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B3F67D-C90A-4EB2-B0EF-CD080FA02907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B3F67D-C90A-4EB2-B0EF-CD080FA02907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F69C16-D3B6-4C2F-AB85-9DC8458F364A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F69C16-D3B6-4C2F-AB85-9DC8458F364A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F69C16-D3B6-4C2F-AB85-9DC8458F364A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F69C16-D3B6-4C2F-AB85-9DC8458F364A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997C7EDA-4F00-4B45-B985-40B9C81E124E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997C7EDA-4F00-4B45-B985-40B9C81E124E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997C7EDA-4F00-4B45-B985-40B9C81E124E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997C7EDA-4F00-4B45-B985-40B9C81E124E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE86907-CAA6-4489-B807-A1DE10D436C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE86907-CAA6-4489-B807-A1DE10D436C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE86907-CAA6-4489-B807-A1DE10D436C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE86907-CAA6-4489-B807-A1DE10D436C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F20968C-E97D-4022-B1AA-30DA9FC31406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F20968C-E97D-4022-B1AA-30DA9FC31406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F20968C-E97D-4022-B1AA-30DA9FC31406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F20968C-E97D-4022-B1AA-30DA9FC31406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E88C088-3764-457D-AA35-3715C8040244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E88C088-3764-457D-AA35-3715C8040244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E88C088-3764-457D-AA35-3715C8040244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E88C088-3764-457D-AA35-3715C8040244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD7E89D-56D9-483B-A6AC-8788EC528144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD7E89D-56D9-483B-A6AC-8788EC528144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD7E89D-56D9-483B-A6AC-8788EC528144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD7E89D-56D9-483B-A6AC-8788EC528144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07914CB-A733-4AF5-B05E-D170CF0BAE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07914CB-A733-4AF5-B05E-D170CF0BAE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07914CB-A733-4AF5-B05E-D170CF0BAE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07914CB-A733-4AF5-B05E-D170CF0BAE10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F20968C-E97D-4022-B1AA-30DA9FC31406} = {DDB70231-E521-4E44-BB88-0B0F1C6761BE}
+		{0E88C088-3764-457D-AA35-3715C8040244} = {DDB70231-E521-4E44-BB88-0B0F1C6761BE}
+		{6CD7E89D-56D9-483B-A6AC-8788EC528144} = {DDB70231-E521-4E44-BB88-0B0F1C6761BE}
+		{F07914CB-A733-4AF5-B05E-D170CF0BAE10} = {DDB70231-E521-4E44-BB88-0B0F1C6761BE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\my</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>06/19/2014 16:05:55</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/19/2014 17:40:02</publishTime>
+    </File>
+    <File Include="bin/FWD.BusinessObjects.dll">
+      <publishTime>10/20/2014 15:03:19</publishTime>
+    </File>
+    <File Include="bin/FWD.CommonIterfaces.dll">
+      <publishTime>10/20/2014 15:03:19</publishTime>
+    </File>
+    <File Include="bin/FWD.DAL.dll">
+      <publishTime>10/20/2014 15:03:20</publishTime>
+    </File>
+    <File Include="bin/FWD.Services.dll">
+      <publishTime>10/20/2014 15:03:20</publishTime>
+    </File>
+    <File Include="bin/FWD.UI.Web.dll">
+      <publishTime>10/20/2014 15:03:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>10/06/2014 12:59:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>10/06/2014 12:59:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>10/06/2014 12:59:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>10/06/2014 12:59:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>10/06/2014 12:59:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/06/2014 12:59:26</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>06/23/2014 17:07:21</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>07/29/2014 12:20:39</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/29/2014 12:20:37</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/29/2014 12:20:37</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/29/2014 12:20:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>07/29/2014 12:20:37</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>07/29/2014 12:20:37</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>07/29/2014 12:20:37</publishTime>
+    </File>
+    <File Include="bin/TextAnalyzer.dll">
+      <publishTime>10/14/2014 09:32:10</publishTime>
+    </File>
+    <File Include="bin/WebRock.Utils.dll">
+      <publishTime>07/31/2014 15:14:06</publishTime>
+    </File>
+    <File Include="Content/Images/arrow_LeftLight.png">
+      <publishTime>09/10/2014 16:53:59</publishTime>
+    </File>
+    <File Include="Content/Images/arrow_RightLight.png">
+      <publishTime>09/10/2014 16:54:05</publishTime>
+    </File>
+    <File Include="Content/Images/article-icon.png">
+      <publishTime>07/22/2014 14:41:23</publishTime>
+    </File>
+    <File Include="Content/Images/big-flower.gif">
+      <publishTime>09/10/2014 15:05:34</publishTime>
+    </File>
+    <File Include="Content/Images/cancel.png">
+      <publishTime>08/14/2014 14:07:47</publishTime>
+    </File>
+    <File Include="Content/Images/drawing.png">
+      <publishTime>07/29/2014 11:59:01</publishTime>
+    </File>
+    <File Include="Content/Images/drawing_down.svg">
+      <publishTime>07/29/2014 12:05:40</publishTime>
+    </File>
+    <File Include="Content/Images/drawing_hover.svg">
+      <publishTime>07/29/2014 12:03:04</publishTime>
+    </File>
+    <File Include="Content/Images/favicon.png">
+      <publishTime>09/12/2014 13:52:21</publishTime>
+    </File>
+    <File Include="Content/Images/page_clock.png">
+      <publishTime>09/12/2014 13:52:21</publishTime>
+    </File>
+    <File Include="Content/Images/preview4.jpg">
+      <publishTime>08/14/2014 12:02:57</publishTime>
+    </File>
+    <File Include="Content/Images/smiles.png">
+      <publishTime>10/07/2014 13:25:33</publishTime>
+    </File>
+    <File Include="Content/Images/Wait-big.gif">
+      <publishTime>09/10/2014 14:59:50</publishTime>
+    </File>
+    <File Include="Content/Style/main.css">
+      <publishTime>10/17/2014 17:29:42</publishTime>
+    </File>
+    <File Include="Content/Style/popUpWindow.css">
+      <publishTime>10/13/2014 14:46:51</publishTime>
+    </File>
+    <File Include="Content/Style/smiles.css">
+      <publishTime>10/08/2014 11:03:33</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/29/2014 12:25:05</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/06/2014 13:41:56</publishTime>
+    </File>
+    <File Include="Scripts/Common/Article/article.model.js">
+      <publishTime>10/17/2014 18:02:33</publishTime>
+    </File>
+    <File Include="Scripts/Common/Article/article.service.js">
+      <publishTime>10/13/2014 13:52:29</publishTime>
+    </File>
+    <File Include="Scripts/Common/components/ui/comment.js">
+      <publishTime>10/15/2014 18:06:56</publishTime>
+    </File>
+    <File Include="Scripts/Common/Helpers/appPath.js">
+      <publishTime>09/29/2014 15:45:37</publishTime>
+    </File>
+    <File Include="Scripts/Common/Helpers/drag%27n%27drop/dragModel.js">
+      <publishTime>10/03/2014 18:03:32</publishTime>
+    </File>
+    <File Include="Scripts/Common/Helpers/errorHelper/errorHelper.model.js">
+      <publishTime>09/30/2014 13:32:42</publishTime>
+    </File>
+    <File Include="Scripts/Common/Helpers/justHelper.js">
+      <publishTime>08/14/2014 12:34:24</publishTime>
+    </File>
+    <File Include="Scripts/Common/Helpers/pager.js">
+      <publishTime>09/11/2014 14:53:38</publishTime>
+    </File>
+    <File Include="Scripts/Common/Helpers/windowHelper/windowHelper.model.js">
+      <publishTime>10/03/2014 17:36:01</publishTime>
+    </File>
+    <File Include="Scripts/Common/leftPanel/leftpanel.model.js">
+      <publishTime>10/17/2014 17:11:58</publishTime>
+    </File>
+    <File Include="Scripts/Common/leftPanel/leftpanel.service.js">
+      <publishTime>09/12/2014 15:11:26</publishTime>
+    </File>
+    <File Include="Scripts/Common/Plan/plan.model.js">
+      <publishTime>10/03/2014 13:49:30</publishTime>
+    </File>
+    <File Include="Scripts/Common/Plan/plan.service.js">
+      <publishTime>10/03/2014 13:49:15</publishTime>
+    </File>
+    <File Include="Scripts/Common/snow.js">
+      <publishTime>10/10/2014 15:25:26</publishTime>
+    </File>
+    <File Include="Scripts/Common/topMenu/topMenu.model.js">
+      <publishTime>10/15/2014 15:18:03</publishTime>
+    </File>
+    <File Include="Scripts/Common/topMenu/topMenu.service.js">
+      <publishTime>09/26/2014 10:17:58</publishTime>
+    </File>
+    <File Include="Scripts/Common/views/create.article.view.js">
+      <publishTime>10/16/2014 14:34:20</publishTime>
+    </File>
+    <File Include="Scripts/Common/views/pager.view.js">
+      <publishTime>10/02/2014 17:27:38</publishTime>
+    </File>
+    <File Include="Scripts/Common/views/plan.view.js">
+      <publishTime>10/03/2014 18:05:07</publishTime>
+    </File>
+    <File Include="Scripts/Common/views/stat.view.js">
+      <publishTime>10/13/2014 14:39:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/29/2014 12:34:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/29/2014 12:34:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/29/2014 12:34:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.js">
+      <publishTime>10/06/2014 13:41:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.min.js">
+      <publishTime>10/06/2014 13:41:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.1.2.js">
+      <publishTime>10/06/2014 13:41:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.1.2.min.js">
+      <publishTime>10/06/2014 13:41:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/29/2014 12:34:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/29/2014 12:34:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/29/2014 12:34:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/29/2014 12:34:04</publishTime>
+    </File>
+    <File Include="Scripts/underscorejs.js">
+      <publishTime>05/02/2014 11:24:26</publishTime>
+    </File>
+    <File Include="Views/Entity/Entity.cshtml">
+      <publishTime>09/29/2014 15:28:30</publishTime>
+    </File>
+    <File Include="Views/Entity/GetEntity.cshtml">
+      <publishTime>10/15/2014 17:12:43</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/29/2014 15:54:27</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/17/2014 18:05:38</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/23/2014 10:50:18</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/29/2014 12:34:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/20/2014 15:05:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
